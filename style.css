@@ -29,6 +29,12 @@ footer {
   100% {top: 700px;}
 }
 
+.game-window {
+  width: 900px;
+  min-width: 700px;
+  max-width: 1000px;
+}
+
 .player {
   position: absolute;
   height: 40px;

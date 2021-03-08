@@ -1,14 +1,14 @@
 
-import Ball from '/balls.js';
-import Player from '/player.js';
+import Ball from '../balls.js';
+import Player from '../player.js';
 
-setInterval(createBall, 1000);
+setInterval(createBall, 500);
 
 let player = new Player().body;
 document.body.appendChild(player);
 
 function createBall () {
-    let killer = new Ball;
+    let killer = new Ball; 
     setBallType(killer);
     let ball = killer.ball;
     document.body.appendChild(ball);
